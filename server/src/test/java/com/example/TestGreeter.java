@@ -19,10 +19,9 @@ public class TestGreeter {
 
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
-    //String someone = "World";
-	String someone = "FC Porto";
-
-    assertThat(greeter.greet(someone), containsString(someone));
+    String someone = "World";
+	
+    assertThat(greeter.greet(someone), "wedwedwededwedwedwe");
   }
 
   @Test
